@@ -3,4 +3,6 @@
   publish = ".next"
 
 [[plugins]]
-  package = "netlify-plugin-cypress" "netlify/plugin-emails"
+  package = "netlify-plugin-cypress"
+  [[plugins]]
+  package = "@netlify/plugin-emails"
