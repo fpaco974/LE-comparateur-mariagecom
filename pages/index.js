@@ -1,8 +1,7 @@
+import React from 'react';
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
 
-export default function Home() {
+const HomePage = () => {
   return (
     <div> 
       <Head>
@@ -17,8 +16,8 @@ export default function Home() {
           allow="FullScreen"
         ></iframe>
       </main>
-
-      <Footer />
     </div>
-  )
-}
+);
+};
+
+export default HomePage;
